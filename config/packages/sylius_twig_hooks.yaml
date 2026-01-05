@@ -14,15 +14,40 @@ sylius_twig_hooks:
         template: 'shop/layout/header.html.twig'
         priority: 1000
     
+    sylius_shop.base.footer:
+        content:
+            enabled: false
+        app_shop_footer:
+            template: 'shop/layout/footer.html.twig'
+            priority: 1000
+    
     sylius_shop.base.header.navbar:
       app_shop_menu:
         template: 'shop/layout/menu.html.twig'
         priority: 500
     
-    sylius_shop.base.homepage:
-      app_shop_homepage:
-        template: 'shop/layout/homepage.html.twig'
+    sylius_shop.homepage.index:
+      banner:
+        enabled: false
+      latest_deal:
+        enabled: false
+      latest_products:
+        enabled: false
+      lastest_offers:
+        enabled: false
+      app_shop_banner:
+        template: 'shop/layout/banner.html.twig'
+        priority: 1000
+      app_shop_products_section:
+        template: 'shop/layout/products.html.twig'
         priority: 500
+
+    sylius_shop.product.show:
+        content:
+            enabled: false
+        app_shop_product_show:
+            template: 'shop/product/show.html.twig'
+    
     sylius_shop.base#stylesheets:
       app_shop_theme:
         template: "shop/theme/theme.html.twig"

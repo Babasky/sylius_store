@@ -1,0 +1,12 @@
+<nav class="app-menu">
+    <ul>
+        {% for taxon in sylius_repository('Sylius\\Component\\Taxonomy\\Model\\Taxon')
+            .findRootNodes() %}
+            <li>
+                <a href="{{ path('sylius_shop_product_index', { slug: taxon.slug }) }}">
+                    {{ taxon.name }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

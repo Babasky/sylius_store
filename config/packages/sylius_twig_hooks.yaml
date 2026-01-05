@@ -1,0 +1,29 @@
+# config/packages/sylius_twig_hooks.yaml
+sylius_twig_hooks:
+  enable_autoprefixing: true
+
+  hooks:
+    sylius_shop.base.header:
+      top_bar:
+        enabled: false
+      content:
+        enabled: false
+      navbar:
+        enabled: false
+      app_shop_header:
+        template: 'shop/layout/header.html.twig'
+        priority: 1000
+    
+    sylius_shop.base.header.navbar:
+      app_shop_menu:
+        template: 'shop/layout/menu.html.twig'
+        priority: 500
+    
+    sylius_shop.base.homepage:
+      app_shop_homepage:
+        template: 'shop/layout/homepage.html.twig'
+        priority: 500
+    sylius_shop.base#stylesheets:
+      app_shop_theme:
+        template: "shop/theme/theme.html.twig"
+        priority: 500

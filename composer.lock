@@ -1631,16 +1631,16 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "2.4.0",
+            "version": "2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "9acfeea2e8666536edff3d77c531261c63680160"
+                "reference": "171e68db4b9aca9dc1f5d49925762f3d53d248c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/9acfeea2e8666536edff3d77c531261c63680160",
-                "reference": "9acfeea2e8666536edff3d77c531261c63680160",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/171e68db4b9aca9dc1f5d49925762f3d53d248c5",
+                "reference": "171e68db4b9aca9dc1f5d49925762f3d53d248c5",
                 "shasum": ""
             },
             "require": {
@@ -1697,7 +1697,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/collections/issues",
-                "source": "https://github.com/doctrine/collections/tree/2.4.0"
+                "source": "https://github.com/doctrine/collections/tree/2.5.1"
             },
             "funding": [
                 {
@@ -1713,7 +1713,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-10-25T09:18:13+00:00"
+            "time": "2026-01-12T20:53:55+00:00"
         },
         {
             "name": "doctrine/common",
@@ -2693,16 +2693,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "3.6.0",
+            "version": "3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/orm.git",
-                "reference": "d4e9276e79602b1eb4c4029c6c999b0d93478e2f"
+                "reference": "2148940290e4c44b9101095707e71fb590832fa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/orm/zipball/d4e9276e79602b1eb4c4029c6c999b0d93478e2f",
-                "reference": "d4e9276e79602b1eb4c4029c6c999b0d93478e2f",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/2148940290e4c44b9101095707e71fb590832fa5",
+                "reference": "2148940290e4c44b9101095707e71fb590832fa5",
                 "shasum": ""
             },
             "require": {
@@ -2775,9 +2775,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/orm/issues",
-                "source": "https://github.com/doctrine/orm/tree/3.6.0"
+                "source": "https://github.com/doctrine/orm/tree/3.6.1"
             },
-            "time": "2025-12-19T20:36:14+00:00"
+            "time": "2026-01-09T05:28:15+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -16008,39 +16008,39 @@
         },
         {
             "name": "lchrusciel/api-test-case",
-            "version": "v5.3.4",
+            "version": "v5.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lchrusciel/ApiTestCase.git",
-                "reference": "420bfe7cc433ef2f24a058050e196afe2dd02bcd"
+                "reference": "9223f2825ffbac2f1d4612d9d56c058ecaef2cb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lchrusciel/ApiTestCase/zipball/420bfe7cc433ef2f24a058050e196afe2dd02bcd",
-                "reference": "420bfe7cc433ef2f24a058050e196afe2dd02bcd",
+                "url": "https://api.github.com/repos/lchrusciel/ApiTestCase/zipball/9223f2825ffbac2f1d4612d9d56c058ecaef2cb6",
+                "reference": "9223f2825ffbac2f1d4612d9d56c058ecaef2cb6",
                 "shasum": ""
             },
             "require": {
                 "coduo/php-matcher": "^6.0",
-                "doctrine/data-fixtures": "^1.2",
-                "doctrine/doctrine-bundle": "^2.0",
+                "doctrine/data-fixtures": "^1.2 || ^2.0",
+                "doctrine/doctrine-bundle": "^2.0 || ^3.0",
                 "doctrine/orm": "^2.5 || ^3.0",
                 "ext-json": "*",
                 "nelmio/alice": "^3.6",
                 "openlss/lib-array2xml": "^1.0",
-                "php": "^8.0",
+                "php": "^8.1",
                 "phpspec/php-diff": "^1.1",
-                "phpunit/phpunit": "^9.0 || ^10.0 || ^11.0",
-                "symfony/browser-kit": "^6.4 || ^7.0",
-                "symfony/finder": "^6.4 || ^7.0",
-                "symfony/framework-bundle": "^6.4 || ^7.0",
+                "phpunit/phpunit": "^10.0 || ^11.0 || ^12.0",
+                "symfony/browser-kit": "^6.4 || ^7.4",
+                "symfony/finder": "^6.4 || ^7.4",
+                "symfony/framework-bundle": "^6.4 || ^7.4",
                 "theofidry/alice-data-fixtures": "^1.0"
             },
             "require-dev": {
                 "phpstan/phpstan": "^1.8",
                 "phpstan/phpstan-strict-rules": "^1.0",
                 "phpstan/phpstan-webmozart-assert": "^1.0",
-                "symfony/serializer": "^5.4 || ^6.0"
+                "symfony/serializer": "^5.4 || ^6.0 || ^7.0"
             },
             "suggest": {
                 "polishsymfonycommunity/symfony-mocker-container": "For mocking container services and external APIs"
@@ -16091,9 +16091,9 @@
             ],
             "support": {
                 "issues": "https://github.com/lchrusciel/ApiTestCase/issues",
-                "source": "https://github.com/lchrusciel/ApiTestCase/tree/v5.3.4"
+                "source": "https://github.com/lchrusciel/ApiTestCase/tree/v5.3.5"
             },
-            "time": "2024-07-29T13:11:08+00:00"
+            "time": "2026-01-11T22:22:22+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -19884,5 +19884,5 @@
         "php": "^8.3"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
